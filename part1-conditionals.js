@@ -2,9 +2,18 @@
 // Print A, B, C, D, or F based on score
 
 let score = 82;
-if (score) {
-    console.log("You got a B! :]");
-}
+
+if (score >= 90) 
+    console.log("A")
+else if (score >= 80)
+    console.log("B")
+else if (score >= 70)
+    console.log("C")
+else if (score >= 60)
+    console.log("D")
+else 
+    console.log ("F")
+
 
 // Pizza Quantity Warning
 // Print warning if quantity > 10
